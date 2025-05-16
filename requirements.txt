@@ -1,0 +1,5 @@
+PyQt6==6.6.1
+pandas==2.1.4
+numpy==1.26.2
+xmltodict==0.13.0
+lxml==4.9.3 

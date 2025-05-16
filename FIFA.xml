@@ -1,0 +1,2081 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<IntelliEdit xmlns="http://tempuri.org/IntelliEdit.xsd">
+  <DoubleCrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>playerid</SourceColumn>
+    <IntermediateTable>players</IntermediateTable>
+    <IntermediateKeyColumn>playerid</IntermediateKeyColumn>
+    <IntermediateJumpColumn>lastnameid</IntermediateJumpColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </DoubleCrossTable>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>teamid</SourceColumn>
+    <ReferredTable>teams</ReferredTable>
+    <KeyColumn>teamid</KeyColumn>
+    <DisplayColumn>teamname</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>assetid</SourceColumn>
+    <ReferredTable>teams</ReferredTable>
+    <KeyColumn>teamid</KeyColumn>
+    <DisplayColumn>teamname</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>leagueid</SourceColumn>
+    <ReferredTable>leagues</ReferredTable>
+    <KeyColumn>leagueid</KeyColumn>
+    <DisplayColumn>leaguename</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>stadiumid</SourceColumn>
+    <ReferredTable>stadiums</ReferredTable>
+    <KeyColumn>stadiumid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>nationality</SourceColumn>
+    <ReferredTable>nations</ReferredTable>
+    <KeyColumn>nationid</KeyColumn>
+    <DisplayColumn>nationname</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>countryid</SourceColumn>
+    <ReferredTable>nations</ReferredTable>
+    <KeyColumn>nationid</KeyColumn>
+    <DisplayColumn>nationname</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>nationid</SourceColumn>
+    <ReferredTable>nations</ReferredTable>
+    <KeyColumn>nationid</KeyColumn>
+    <DisplayColumn>nationname</DisplayColumn>
+  </CrossTable>  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>refereeid</SourceColumn>
+    <ReferredTable>referee</ReferredTable>
+    <KeyColumn>refereeid</KeyColumn>
+    <DisplayColumn>surname</DisplayColumn>
+  </CrossTable>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position0</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position1</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position2</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position3</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position4</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position5</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position6</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position7</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position8</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position9</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>position10</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>birthdate</SourceColumn>
+    <DomainName>Date</DomainName>
+  </UseDomain>
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>spons</SourceColumn>
+    <ReferredTable>sponsors</ReferredTable>
+    <KeyColumn>adsponserid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </CrossTable>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>skintonecode</SourceColumn>
+    <DomainName>SkinToneCode</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>accessorycolour</SourceColumn>
+    <DomainName>AccessoryColor</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>accessorycode</SourceColumn>
+    <DomainName>AccessoryCode</DomainName>
+  </UseDomain>
+  <DoubleCrossTable>
+    <SourceTable>teams</SourceTable>
+    <SourceColumn>captainid</SourceColumn>
+    <IntermediateTable>players</IntermediateTable>
+    <IntermediateKeyColumn>playerid</IntermediateKeyColumn>
+    <IntermediateJumpColumn>lastnameid</IntermediateJumpColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </DoubleCrossTable>
+  <DoubleCrossTable>
+    <SourceTable>teams</SourceTable>
+    <SourceColumn>penaltytakerid</SourceColumn>
+    <IntermediateTable>players</IntermediateTable>
+    <IntermediateKeyColumn>playerid</IntermediateKeyColumn>
+    <IntermediateJumpColumn>lastnameid</IntermediateJumpColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </DoubleCrossTable>
+  <DoubleCrossTable>
+    <SourceTable>teams</SourceTable>
+    <SourceColumn>freekicktakerid</SourceColumn>
+    <IntermediateTable>players</IntermediateTable>
+    <IntermediateKeyColumn>playerid</IntermediateKeyColumn>
+    <IntermediateJumpColumn>lastnameid</IntermediateJumpColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </DoubleCrossTable>
+  <DoubleCrossTable>
+    <SourceTable>teams</SourceTable>
+    <SourceColumn>longkicktakerid</SourceColumn>
+    <IntermediateTable>players</IntermediateTable>
+    <IntermediateKeyColumn>playerid</IntermediateKeyColumn>
+    <IntermediateJumpColumn>lastnameid</IntermediateJumpColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </DoubleCrossTable>
+  <DoubleCrossTable>
+    <SourceTable>teams</SourceTable>
+    <SourceColumn>leftcornerkicktakerid</SourceColumn>
+    <IntermediateTable>players</IntermediateTable>
+    <IntermediateKeyColumn>playerid</IntermediateKeyColumn>
+    <IntermediateJumpColumn>lastnameid</IntermediateJumpColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </DoubleCrossTable>
+  <DoubleCrossTable>
+    <SourceTable>teams</SourceTable>
+    <SourceColumn>rightcornerkicktakerid</SourceColumn>
+    <IntermediateTable>players</IntermediateTable>
+    <IntermediateKeyColumn>playerid</IntermediateKeyColumn>
+    <IntermediateJumpColumn>lastnameid</IntermediateJumpColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </DoubleCrossTable>
+  <CrossTable>
+    <SourceTable>teams</SourceTable>
+    <SourceColumn>rivalteam</SourceColumn>
+    <ReferredTable>teams</ReferredTable>
+    <KeyColumn>teamid</KeyColumn>
+    <DisplayColumn>teamname</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>firstnameid</SourceColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>lastnameid</SourceColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>commonnameid</SourceColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>playerjerseynameid</SourceColumn>
+    <ReferredTable>playernames</ReferredTable>
+    <KeyColumn>nameid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </CrossTable> 
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>competitionid</SourceColumn>
+    <ReferredTable>leagues</ReferredTable>
+    <KeyColumn>leagueid</KeyColumn>
+    <DisplayColumn>leaguename</DisplayColumn>
+  </CrossTable>  
+  <CrossTable>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>shoetypecode</SourceColumn>
+    <ReferredTable>playerboots</ReferredTable>
+    <KeyColumn>shoetype</KeyColumn>
+    <DisplayColumn>shoetype</DisplayColumn>
+  </CrossTable>
+  <!-- <CrossTable>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>trait1</SourceColumn>
+    <ReferredTable>smteams</ReferredTable>
+    <KeyColumn>assetid</KeyColumn>
+    <DisplayColumn>teamname</DisplayColumn>
+  </CrossTable> -->
+  <CrossTable>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>gkglovetypecode</SourceColumn>
+    <ReferredTable>goalkeepergloves</ReferredTable>
+    <KeyColumn>gloveid</KeyColumn>
+    <DisplayColumn>gloveid</DisplayColumn>
+  </CrossTable>
+  
+  <CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>ballid</SourceColumn>
+    <ReferredTable>teamballs</ReferredTable>
+    <KeyColumn>ballid</KeyColumn>
+    <DisplayColumn>ballid</DisplayColumn>
+  </CrossTable>
+  
+  <CrossTable>
+    <SourceTable>referee</SourceTable>
+    <SourceColumn>nationalitycode</SourceColumn>
+    <ReferredTable>nations</ReferredTable>
+    <KeyColumn>nationid</KeyColumn>
+    <DisplayColumn>nationname</DisplayColumn>
+  </CrossTable>
+  <CrossTable>
+    <SourceTable>teamkits</SourceTable>
+    <SourceColumn>teamtechid</SourceColumn>
+    <ReferredTable>teams</ReferredTable>
+    <KeyColumn>teamid</KeyColumn>
+    <DisplayColumn>teamname</DisplayColumn>
+  </CrossTable>
+  <UseDomain>
+    <SourceTable>fixtures</SourceTable>
+    <SourceColumn>fixturedate</SourceColumn>
+    <DomainName>Date</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>playerloans</SourceTable>
+    <SourceColumn>loandateend</SourceColumn>
+    <DomainName>Date</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>preferredposition1</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>preferredposition2</SourceColumn>
+    <DomainName>PositionAlternative</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>preferredposition3</SourceColumn>
+    <DomainName>PositionAlternative</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>players</SourceTable>
+    <SourceColumn>preferredposition4</SourceColumn>
+    <DomainName>PositionAlternative</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>teamplayerlinks</SourceTable>
+    <SourceColumn>position</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+  <UseDomain>
+    <SourceTable>playerloans</SourceTable>
+    <SourceColumn>dateend</SourceColumn>
+    <DomainName>Date</DomainName>
+  </UseDomain>
+  
+  <UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>trait1</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>role1</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>role2</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>role3</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+
+	<CrossTable>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>relativeformationid</SourceColumn>
+		<ReferredTable>formations</ReferredTable>
+		<KeyColumn>formationid</KeyColumn>
+		<DisplayColumn>formationname</DisplayColumn>
+	</CrossTable>
+ 	<UseDomain>
+		<SourceTable>nations</SourceTable>
+		<SourceColumn>confederation</SourceColumn>
+		<DomainName>Confederation</DomainName>
+	</UseDomain>
+ 	<UseDomain>
+		<SourceTable>teamplayerlinks</SourceTable>
+		<SourceColumn>transferdone</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+ 	<UseDomain>
+		<SourceTable>player_grudgelove</SourceTable>
+		<SourceColumn>love_or_hate</SourceColumn>
+		<DomainName>HateLove</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>playerjointeamdate</SourceColumn>
+		<DomainName>Date</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Date</Name>
+		<TotalValues>1</TotalValues>
+		<Value0>date</Value0>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>referee</SourceTable>
+		<SourceColumn>haircolorcode</SourceColumn>
+		<DomainName>HairColor</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referee</SourceTable>
+		<SourceColumn>facialhairtypecode</SourceColumn>
+		<DomainName>FacialHairStyle</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referee</SourceTable>
+		<SourceColumn>eyecolorcode</SourceColumn>
+		<DomainName>EyeColor</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>eyecolorcode</SourceColumn>
+		<DomainName>EyeColor</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>team_manager</SourceTable>
+		<SourceColumn>ticket_lvl</SourceColumn>
+		<DomainName>TicketLvl</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>career_transfer_list</SourceTable>
+		<SourceColumn>is_loan</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>career_transfer_list</SourceTable>
+		<SourceColumn>sold</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>team_manager</SourceTable>
+		<SourceColumn>ticket_lvl</SourceColumn>
+		<DomainName>TicketLvl</DomainName>
+	</UseDomain>
+
+	<DomainList>
+		<Name>Currency</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>€</Value0>
+		<Value1>$</Value1>
+		<Value2>£</Value2>
+	</DomainList>
+	<DomainList>
+		<Name>TicketLvl</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>Low Price</Value0>
+		<Value1>Medium Price</Value1>
+		<Value2>High Price</Value2>
+	</DomainList>
+	<DomainList>
+		<Name>Confederation</Name>
+		<TotalValues>7</TotalValues>
+		<Value0>None</Value0>
+		<Value1>UEFA</Value1>
+		<Value2>CAF</Value2>
+		<Value3>CONMEBOL</Value3>
+		<Value4>AFC</Value4>
+		<Value5>OFC</Value5>
+		<Value6>CONCACAF</Value6>
+	</DomainList>
+
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>timeofday1</SourceColumn>
+		<DomainName>TimeOfDay</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>timeofday2</SourceColumn>
+		<DomainName>TimeOfDay</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>timeofday3</SourceColumn>
+		<DomainName>TimeOfDay</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>timeofday4</SourceColumn>
+		<DomainName>TimeOfDay</DomainName>
+	</UseDomain>
+    <DomainList>
+		<Name>TimeOfDay</Name>
+		<TotalValues>6</TotalValues>
+		<Value0>Cloudy day</Value0>
+		<Value1>Clear day</Value1>
+		<Value2>Unused</Value2>
+		<Value3>Night</Value3>
+		<Value4>Sunset</Value4>
+		<Value5>Not assigned</Value5>
+	</DomainList>
+
+ 	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>tod1weather</SourceColumn>
+		<DomainName>TimeOfDayWeather</DomainName>
+	</UseDomain>
+ 	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>tod2weather</SourceColumn>
+		<DomainName>TimeOfDayWeather</DomainName>
+	</UseDomain>
+ 	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>tod3weather</SourceColumn>
+		<DomainName>TimeOfDayWeather</DomainName>
+	</UseDomain>
+ 	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>tod4weather</SourceColumn>
+		<DomainName>TimeOfDayWeather</DomainName>
+	</UseDomain>
+   <DomainList>
+		<Name>TimeOfDayWeather</Name>
+		<TotalValues>4</TotalValues>
+		<Value0>Dry</Value0>
+		<Value1>Dry or Rain</Value1>
+		<Value2>Dry or Snow</Value2>
+		<Value3>Dry or Rain or Snow</Value3>
+	</DomainList>
+
+	<DomainList>
+		<Name>RightLeft</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>Right</Value0>
+		<Value1>Left</Value1>
+	</DomainList>
+	<DomainList>
+		<Name>HateLove</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>Hate</Value0>
+		<Value1>Love</Value1>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>preferredfoot</SourceColumn>
+		<DomainName>RightLeft</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teams</SourceTable>
+		<SourceColumn>speechcountryid</SourceColumn>
+		<DomainName>Speech</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Speech</Name>
+		<TotalValues>14</TotalValues>
+		<Value0>Enghish</Value0>
+		<Value1>French</Value1>
+		<Value2>German</Value2>
+		<Value3>Italian</Value3>
+		<Value4>Spanish</Value4>
+		<Value5>Brazilian</Value5>
+		<Value6></Value6>
+		<Value7>Korean</Value7>
+		<Value8>Dutch</Value8>
+		<Value9>Denish</Value9>
+		<Value10>Swedish</Value10>
+		<Value11>Norwegian</Value11>
+		<Value12>Portuguese</Value12>
+		<Value13>Other</Value13>
+	</DomainList>
+  <DomainList>
+    <Name>PositionAlternative</Name>
+    <TotalValues>30</TotalValues>
+    <Value0>None</Value0>
+    <Value1>Goalkeeper</Value1>
+    <Value2>Sweeper</Value2>
+    <Value3>R.Wing Back</Value3>
+    <Value4>R.     Back</Value4>
+    <Value5>R.C.   Back</Value5>
+    <Value6>C.     Back</Value6>
+    <Value7>L.C.   Back</Value7>
+    <Value8>L.     Back</Value8>
+    <Value9>L.Wing Back</Value9>
+    <Value10>R.     Def. Midfielder</Value10>
+    <Value11>C.     Def. Midfielder</Value11>
+    <Value12>L.     Def. Midfielder</Value12>
+    <Value13>R.     Midfielder</Value13>
+    <Value14>R.C.   Midfielder</Value14>
+    <Value15>C.     Midfielder</Value15>
+    <Value16>L.C.   Midfielder</Value16>
+    <Value17>L.     Midfielder</Value17>
+    <Value18>R.     Adv. Midfielder</Value18>
+    <Value19>C.     Adv. Midfielder</Value19>
+    <Value20>L.     Adv. Midfielder</Value20>
+    <Value21>R.     Forfward</Value21>
+    <Value22>C.     Forfward</Value22>
+    <Value23>L.     Forfward</Value23>
+    <Value24>R.     Wing</Value24>
+    <Value25>R.     Striker</Value25>
+    <Value26>C.     Striker</Value26>
+    <Value27>L.     Striker</Value27>
+    <Value28>L.     Wing</Value28>
+    <Value29>Substitute</Value29>
+    <Value30>Tribune</Value30>
+  </DomainList>
+  <DomainList>
+    <Name>PositionAll</Name>
+    <TotalValues>30</TotalValues>
+    <Value0>Goalkeeper</Value0>
+    <Value1>Sweeper</Value1>
+    <Value2>R.Wing Back</Value2>
+    <Value3>R.     Back</Value3>
+    <Value4>R.C.   Back</Value4>
+    <Value5>C.     Back</Value5>
+    <Value6>L.C.   Back</Value6>
+    <Value7>L.     Back</Value7>
+    <Value8>L.Wing Back</Value8>
+    <Value9>R.     Def. Midfielder</Value9>
+    <Value10>C.     Def. Midfielder</Value10>
+    <Value11>L.     Def. Midfielder</Value11>
+    <Value12>R.     Midfielder</Value12>
+    <Value13>R.C.   Midfielder</Value13>
+    <Value14>C.     Midfielder</Value14>
+    <Value15>L.C.   Midfielder</Value15>
+    <Value16>L.     Midfielder</Value16>
+    <Value17>R.     Adv. Midfielder</Value17>
+    <Value18>C.     Adv. Midfielder</Value18>
+    <Value19>L.     Adv. Midfielder</Value19>
+    <Value20>R.     Forfward</Value20>
+    <Value21>C.     Forfward</Value21>
+    <Value22>L.     Forfward</Value22>
+    <Value23>R.     Wing</Value23>
+    <Value24>R.     Striker</Value24>
+    <Value25>C.     Striker</Value25>
+    <Value26>L.     Striker</Value26>
+    <Value27>L.     Wing</Value27>
+    <Value28>Substitute</Value28>
+    <Value29>Tribune</Value29>
+  </DomainList>
+  <DomainList>
+		<Name>PositionMovement</Name>
+		<TotalValues>29</TotalValues>
+		<Value0>Sweeper</Value0>
+		<Value1>R.Wing Back</Value1>
+		<Value2>R.     Back</Value2>
+		<Value3>R.C.   Back</Value3>
+		<Value4>C.     Back</Value4>
+		<Value5>L.C.   Back</Value5>
+		<Value6>L.     Back</Value6>
+		<Value7>L.Wing Back</Value7>
+		<Value8>R.     Def. Midfielder</Value8>
+		<Value9>C.     Def. Midfielder</Value9>
+		<Value10>L.     Def. Midfielder</Value10>
+		<Value11>R.     Midfielder</Value11>
+		<Value12>R.C.   Midfielder</Value12>
+		<Value13>C.     Midfielder</Value13>
+		<Value14>L.C.   Midfielder</Value14>
+		<Value15>L.     Midfielder</Value15>
+		<Value16>R.     Adv. Midfielder</Value16>
+		<Value17>C.     Adv. Midfielder</Value17>
+		<Value18>L.     Adv. Midfielder</Value18>
+		<Value19>R.     Forfward</Value19>
+		<Value20>C.     Forfward</Value20>
+		<Value21>L.     Forfward</Value21>
+		<Value22>R.     Wing</Value22>
+		<Value23>R.     Striker</Value23>
+		<Value24>C.     Striker</Value24>
+		<Value25>L.     Striker</Value25>
+		<Value26>L.     Wing</Value26>
+		<Value27>Substitute</Value27>
+		<Value28>Tribune</Value28>
+	</DomainList>
+	<DomainList>
+		<Name>PositionReserve</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>Substitute</Value0>
+		<Value1>Tribune</Value1>
+	</DomainList>
+	<DomainList>
+		<Name>PositionGoalkeeper</Name>
+		<TotalValues>1</TotalValues>
+		<Value0>Goalkeeper</Value0>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position0</SourceColumn>
+		<DomainName>PositionGoalkeeper</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position1</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position2</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position3</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position4</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position5</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position6</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position7</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position8</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position9</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formations</SourceTable>
+		<SourceColumn>position10</SourceColumn>
+		<DomainName>PositionMovement</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>formupdate</SourceTable>
+		<SourceColumn>position</SourceColumn>
+		<DomainName>PositionAll</DomainName>
+	</UseDomain>
+
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>sleevelength</SourceColumn>
+		<DomainName>ShortLong</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>jerseysleevelengthcode</SourceColumn>
+		<DomainName>ShortLong</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>jerseysleevelengthcode</SourceColumn>
+		<DomainName>ShortLong</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>sleevelength</SourceColumn>
+		<DomainName>ShortLong</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>ShortLong</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>Short</Value0>
+		<Value1>Long</Value1>
+	</DomainList>
+	<DomainList>
+		<Name>NoYes</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>No</Value0>
+		<Value1>Yes</Value1>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>isinternationalreferee</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teams</SourceTable>
+		<SourceColumn>genericbanner</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>SeatColor</Name>
+		<TotalValues>8</TotalValues>
+		<Value0>Dark Red</Value0>
+		<Value1>Dark Grey</Value1>
+		<Value2>Green</Value2>
+		<Value3>Dark Blue</Value3>
+		<Value4>Light Blue</Value4>
+		<Value5>Light Red</Value5>
+		<Value6>Dark Yellow</Value6>
+		<Value7>Light Grey</Value7>
+	</DomainList>
+	<DomainList>
+		<Name>EyeColor</Name>
+		<TotalValues>8</TotalValues>
+		<Value0>Blue</Value0>
+		<Value1>Dark Blue</Value1>
+		<Value2>Light Blue</Value2>
+		<Value3>Dark Brown</Value3>
+		<Value4>Brown</Value4>
+		<Value5>Light Brown</Value5>
+		<Value6>Green</Value6>
+		<Value7>Light Green</Value7>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>seatcolor</SourceColumn>
+		<DomainName>SeatColor</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>track</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>netcolor</SourceColumn>
+		<DomainName>NetColor</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>NetColor</Name>
+		<TotalValues>11</TotalValues>
+		<Value0>Small Square White</Value0>
+		<Value1>Big Square Red</Value1>
+		<Value2>Small Square Green</Value2>
+		<Value3>Big Square Yellow</Value3>
+		<Value4>Big Square Yellow</Value4>
+		<Value5>Big Square Yellow</Value5>
+		<Value6>Hexagon White</Value6>
+		<Value7>Hexagon Red</Value7>
+		<Value8>Hexagon Blue</Value8>
+		<Value9>Hexagon Yellow</Value9>
+		<Value10>Hexagon White</Value10>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>shadowleft</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>shadowright</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>hasnighttime</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>StadiumType</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>Normal</Value0>
+		<Value1>Training</Value1>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>stadiumtype</SourceColumn>
+		<DomainName>StadiumType</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>hasovercast</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>hasclearday</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>hassunset</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>hasretractableroof</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>localizationcode</SourceColumn>
+		<DomainName>LocalizationCode</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>LocalizationCode</Name>
+		<TotalValues>8</TotalValues>
+		<Value0>Unknown</Value0>
+		<Value1>UK</Value1>
+		<Value2>Spain</Value2>
+		<Value3>Germany</Value3>
+		<Value4>Italy</Value4>
+		<Value5>France</Value5>
+		<Value6>Portugal</Value6>
+		<Value7>Other</Value7>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>mowpattern</SourceColumn>
+		<DomainName>MowPattern</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>MowPattern</Name>
+		<TotalValues>14</TotalValues>
+		<Value0>Squared</Value0>
+		<Value1>Squared Big</Value1>
+		<Value2>Squared + Circles</Value2>
+		<Value3>Horizontal Big</Value3>
+		<Value4>Horizontal + Left Diagonal</Value4>
+		<Value5>Horizontal + Right Diagonal</Value5>
+		<Value6>Squared + Diagonal Box</Value6>
+		<Value7>Squared + Diagonal Box</Value7>
+		<Value8>Diagonal Small</Value8>
+		<Value9>Squared + Circles</Value9>
+		<Value10>Five Circles</Value10>
+		<Value11>Kilt Style</Value11>
+		<Value12>Horizontal</Value12>
+		<Value13>Diagonal</Value13>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>stadiums</SourceTable>
+		<SourceColumn>stadiumcondition</SourceColumn>
+		<DomainName>StadiumCondition</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>StadiumCondition</Name>
+		<TotalValues>4</TotalValues>
+		<Value0>Damaged</Value0>
+		<Value1>Medium</Value1>
+		<Value2>Good</Value2>
+		<Value3>Unused</Value3>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>teamkits</SourceTable>
+		<SourceColumn>teamkittypetechid</SourceColumn>
+		<DomainName>KitType</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>KitType</Name>
+		<TotalValues>8</TotalValues>
+		<Value0>Home Kit</Value0>
+		<Value1>Away Kit</Value1>
+		<Value2>Goalkeeper Kit</Value2>
+		<Value3>Third Kit</Value3>
+		<Value4>Manager Kit</Value4>
+		<Value5>Referee Kit</Value5>
+		<Value6>Training Kit 1</Value6>
+		<Value7>Training Kit 2</Value7>
+	</DomainList>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>skillmoves</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Stars</Name>
+		<TotalValues>1</TotalValues>
+		<Value0>0</Value0>
+	</DomainList>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>skillmoveslikelihood</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>weakfootabilitytypecode</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>defensiveworkrate</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>attackingworkrate</SourceColumn>
+		<DomainName>Stars</DomainName>
+	</UseDomain>
+		
+	<DomainList>
+		<Name>NoTopBottom</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>No</Value0>
+		<Value1>Top</Value1>
+		<Value2>Bottom</Value2>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>teamkits</SourceTable>
+		<SourceColumn>nameplacement</SourceColumn>
+		<DomainName>NoTopBottom</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teamkits</SourceTable>
+		<SourceColumn>numberplacementback</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teamkits</SourceTable>
+		<SourceColumn>numberplacementfront</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teamkits</SourceTable>
+		<SourceColumn>shortnumberplacement</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Continent</Name>
+		<TotalValues>7</TotalValues>
+		<Value0>Undefined</Value0>
+		<Value1>Europe</Value1>
+		<Value2>North America</Value2>
+		<Value3>South America</Value3>
+		<Value4>Asia</Value4>
+		<Value5>Africa</Value5>
+		<Value6>Oceania</Value6>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>country</SourceTable>
+		<SourceColumn>continentid</SourceColumn>
+		<DomainName>Continent</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>HairColor</Name>
+		<TotalValues>12</TotalValues>
+		<Value0>Blonde</Value0>
+		<Value1>Black</Value1>
+		<Value2>Dark Blonde</Value2>
+		<Value3>Dark Brown</Value3>
+		<Value4>Light Blonde</Value4>
+		<Value5>Light Brown</Value5>
+		<Value6>Brown</Value6>
+		<Value7>Red</Value7>
+		<Value8>White</Value8>
+		<Value9>Grey</Value9>
+		<Value10>Green</Value10>
+		<Value11>Violet</Value11>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>facialhaircolorcode</SourceColumn>
+		<DomainName>FacialHairColor</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>facialhaircolorcode</SourceColumn>
+		<DomainName>FacialHairColor</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>FacialHairColor</Name>
+		<TotalValues>5</TotalValues>
+		<Value0>Black</Value0>
+		<Value1>Blonde</Value1>
+		<Value2>Dark Brown</Value2>
+		<Value3>Light Brown</Value3>
+		<Value4>Red</Value4>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>haircolorcode</SourceColumn>
+		<DomainName>HairColor</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>FacialHairStyle</Name>
+		<TotalValues>8</TotalValues>
+		<Value0>None</Value0>
+		<Value1>Chin beard</Value1>
+		<Value2>Chin strap</Value2>
+		<Value3>Goatee</Value3>
+		<Value4>Medium Beard</Value4>
+		<Value5>Moustache</Value5>
+		<Value6>Stubble</Value6>
+		<Value7>Tuft</Value7>
+	</DomainList>
+        <UseDomain>
+		<SourceTable>challenge_regions</SourceTable>
+		<SourceColumn>id</SourceColumn>
+		<DomainName>Regions</DomainName>
+	</UseDomain>
+        <UseDomain>
+		<SourceTable>challenge_countries</SourceTable>
+		<SourceColumn>region</SourceColumn>
+		<DomainName>Regions</DomainName>
+	</UseDomain>
+        <UseDomain>
+		<SourceTable>challenges</SourceTable>
+		<SourceColumn>region</SourceColumn>
+		<DomainName>Regions</DomainName>
+	</UseDomain>
+        <UseDomain>
+		<SourceTable>challenge_leagues</SourceTable>
+		<SourceColumn>region</SourceColumn>
+		<DomainName>Regions</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Regions</Name>
+		<TotalValues>9</TotalValues>
+		<Value0>United Kingdom</Value0>
+		<Value1>Western Europe</Value1>
+		<Value2>Southern Europe</Value2>
+		<Value3>Central Europe</Value3>
+		<Value4>The Americas</Value4>
+		<Value5>Scandinavia</Value5>
+		<Value6>Rest of World</Value6>
+		<Value7>Endurance</Value7>
+		<Value8>Master</Value8>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>facialhairtypecode</SourceColumn>
+		<DomainName>FacialHairStyle</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>AccessoryColor</Name>
+		<TotalValues>14</TotalValues>
+		<Value0>White</Value0>
+		<Value1>Black</Value1>
+		<Value2>Blue</Value2>
+		<Value3>Red</Value3>
+		<Value4>Yellow</Value4>
+    <Value5>Dark Green</Value5>
+    <Value6>Orange</Value6>
+    <Value7>Violet</Value7>
+    <Value8>Brown</Value8>
+    <Value9>Pink</Value9>
+    <Value10>Bordeaux</Value10>
+    <Value11>Cyan</Value11>
+    <Value12>Blue Navy</Value12>
+    <Value13>Undefined</Value13>
+  </DomainList>
+  <DomainList>
+    <Name>AccessoryCode</Name>
+    <TotalValues>28</TotalValues>
+    <Value0>None</Value0>
+    <Value1>Undefined</Value1>
+    <Value2>Hearphone</Value2>
+    <Value3>Undefined</Value3>
+    <Value4>Left Watch</Value4>
+    <Value5>Right Watch</Value5>
+    <Value6>Left Hand Tape</Value6>
+    <Value7>Right Hand Tape</Value7>
+    <Value8>Left Wristle Tape</Value8>
+    <Value9>Right Wristle Tape</Value9>
+    <Value10>Left Knee Tape</Value10>
+    <Value11>Right Knee Tape</Value11>
+    <Value12>Left Knee Tutor</Value12>
+    <Value13>Right Knee Tutor</Value13>
+    <Value14>Left Ankle Tape</Value14>
+    <Value15>Right Ankle Tape</Value15>
+    <Value16>Gloves</Value16>
+    <Value17>Undefined</Value17>
+    <Value18>Undefined</Value18>
+    <Value19>Undefined</Value19>
+    <Value20>Undefined</Value20>
+    <Value21>Undefined</Value21>
+    <Value22>Left Finger Tape</Value22>
+    <Value23>Right Finger Tape</Value23>
+    <Value24>Left Wristle Wide Tape</Value24>
+    <Value25>Right Wristle Wide Tape</Value25>
+    <Value26>Left Bracelet</Value26>
+    <Value27>Right Bracelet</Value27>
+  </DomainList>
+  <UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>sideburnscode</SourceColumn>
+		<DomainName>SideBurns</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>sideburnscode</SourceColumn>
+		<DomainName>SideBurns</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>SideBurns</Name>
+		<TotalValues>4</TotalValues>
+		<Value0>None</Value0>
+		<Value1>Short</Value1>
+		<Value2>Long</Value2>
+		<Value3>Unused</Value3>
+	</DomainList>
+ 	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>facetonecode</SourceColumn>
+		<DomainName>FaceToneCode</DomainName>
+	</UseDomain>
+ 	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>facetonecode</SourceColumn>
+		<DomainName>FaceToneCode</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>SkinToneCode</Name>
+		<TotalValues>10</TotalValues>
+		<Value0>Light Pink</Value0>
+		<Value1>Pink</Value1>
+		<Value2>Dark Pink</Value2>
+		<Value3>Light Yellow</Value3>
+		<Value4>Medium Yellow</Value4>
+		<Value5>Dark Yellow</Value5>
+		<Value6>Very Light Brown</Value6>
+		<Value7>Light Brown</Value7>
+		<Value8>Medium Brown</Value8>
+		<Value9>Dark Brown</Value9>
+	</DomainList>
+	<DomainList>
+		<Name>FaceToneCode</Name>
+		<TotalValues>11</TotalValues>
+		<Value0>Specific</Value0>
+		<Value1>Light Pink</Value1>
+		<Value2>Pink</Value2>
+		<Value3>Unused</Value3>
+		<Value4>Light Yellow</Value4>
+		<Value5>Medium Yellow</Value5>
+		<Value6>Dark Yellow</Value6>
+		<Value7>Unused</Value7>
+		<Value8>Light Brown</Value8>
+		<Value9>Medium Brown</Value9>
+		<Value10>Dark Brown</Value10>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>trait2</SourceColumn>
+		<DomainName>TraitTwo</DomainName>
+	</UseDomain>	
+	<DomainList>
+		<Name>TraitTwo</Name>
+		<TotalValues>17</TotalValues>
+		<Value0>None</Value0>
+		<Value1>Cross Claimer (Goalkeeper)</Value1>
+		<Value2>Rush Out (Goalkeeper)</Value2>
+		<Value3>Cross Claimer+Rush Out (Goalkeeper)</Value3>
+		<Value4>None</Value4>
+		<Value5>None</Value5>
+		<Value6>None</Value6>
+		<Value7>None</Value7>
+		<Value8>None</Value8>
+		<Value9>None</Value9>
+		<Value10>None</Value10>
+		<Value11>None</Value11>
+		<Value12>None</Value12>
+		<Value13>None</Value13>
+		<Value14>None</Value14>
+		<Value15>None</Value15>
+		<Value16>Falls if pushed (Player hidden trait)</Value16>
+	</DomainList>	
+	
+	<!-- <UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>ballid</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain> -->	
+	<DomainList>
+		<Name>Balls</Name>
+		<TotalValues>1</TotalValues>
+		<Value0>None</Value0>
+	</DomainList>
+
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>stadiumgoalnetstyle</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor1r</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor1g</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor1b</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor2r</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor2g</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor2b</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor3r</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor3g</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolor3b</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynamecolorr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynamecolorg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynamecolorb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+		
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorprimr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorprimg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorprimb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorsecr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorsecg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorsecb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorterr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorterg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>jerseynumbercolorterb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorprimr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorprimg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorprimb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorsecr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorsecg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorsecb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorterr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorterg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shortsnumbercolorterb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolorprimr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolorprimg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolorprimb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+		
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolorsecr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolorsecg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolorsecb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+		
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolortertr</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolortertg</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>	
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>teamcolortertb</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>stadiummowpattern_code</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shoecolorcode1</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<UseDomain>
+		<SourceTable>*</SourceTable>
+		<SourceColumn>shoecolorcode2</SourceColumn>
+		<DomainName>Balls</DomainName>
+	</UseDomain>
+	
+	<CrossTable>
+    <SourceTable>*</SourceTable>
+    <SourceColumn>trainingstadium</SourceColumn>
+    <ReferredTable>stadiums</ReferredTable>
+    <KeyColumn>stadiumid</KeyColumn>
+    <DisplayColumn>name</DisplayColumn>
+  </CrossTable>
+	
+  <DomainList>
+		<Name>LegType</Name>
+		<TotalValues>6</TotalValues>
+		<Value0>Slim Legs, Low Socks</Value0>
+		<Value1>Slim Legs, Regular Socks</Value1>
+		<Value2>Slim Legs, High Socks</Value2>
+		<Value3>Thick Legs, Low Socks</Value3>
+		<Value4>Thick Legs, Regular Socks</Value4>
+		<Value5>Thick Legs, High Socks</Value5>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>legtypeid</SourceColumn>
+		<DomainName>LegType</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>legtypeid</SourceColumn>
+		<DomainName>LegType</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Accessory</Name>
+		<TotalValues>20</TotalValues>
+		<Value0>None</Value0>
+		<Value1>Unused</Value1>
+		<Value2>Right Bracelet</Value2>
+		<Value3>Left Bracelet</Value3>
+		<Value4>Ankles Tapes</Value4>
+		<Value5>Left Calf Tape</Value5>
+		<Value6>Right Calf Tape</Value6>
+		<Value7>Left Wrist Tape</Value7>
+		<Value8>Right Wrist Tape</Value8>
+		<Value9>Left Finger Tape</Value9>
+		<Value10>Right Finger Tape</Value10>
+		<Value11>Unused</Value11>
+		<Value12>Unused</Value12>
+		<Value13>Left Bracelet</Value13>
+		<Value14>Right Bracelet</Value14>
+		<Value15>Left Wrist Tape</Value15>
+		<Value16>Right Wrist Tape</Value16>
+		<Value17>Unused</Value17>
+		<Value18>Unused</Value18>
+		<Value19>Headbend</Value19>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>playingstyle</SourceColumn>
+		<DomainName>PlayingStyle</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>PlayingStyle</Name>
+		<TotalValues>14</TotalValues>
+		<Value0>Shot Stopper</Value0>
+		<Value1>Attacking Winger</Value1>
+		<Value2>Wing Backs</Value2>
+		<Value3>Stopper</Value3>
+		<Value4>Sweeper</Value4>
+		<Value5>Ball Winner</Value5>
+		<Value6>Box to Box</Value6>
+		<Value7>Defensive Midfielder</Value7>
+		<Value8>Midfield Maestro</Value8>
+		<Value9>Dribbler</Value9>
+		<Value10>Counter Attacker</Value10>
+		<Value11>Clinical Striker</Value11>
+		<Value12>Target Man</Value12>
+		<Value13>Unused</Value13>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>developmenttypecode</SourceColumn>
+		<DomainName>DevelopmentType</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>DevelopmentType</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>Early Bloomer</Value0>
+		<Value1>Regular</Value1>
+		<Value2>Late Bloomer</Value2>
+	</DomainList>
+
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>accessoryid1</SourceColumn>
+		<DomainName>Accessory</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>accessoryid2</SourceColumn>
+		<DomainName>Accessory</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>accessoryid3</SourceColumn>
+		<DomainName>Accessory</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>accessoryid4</SourceColumn>
+		<DomainName>Accessory</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>accessoryid5</SourceColumn>
+		<DomainName>Accessory</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>injuryprone</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>flexibility</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>adaptability</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>ambition</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>comesforcrosses</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>diver</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>divesintotackles</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>earlycrosser</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>holdsup</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>latecrosser</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>leadership</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>longshottaker</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>longthrows</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>lowconcentration</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>onetimepasser</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>playmaker</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>puncher</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>pushesupforcorners</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>rushesoutofgoal</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>selfish</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>staysongoalline</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>technicaldribbler</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>highclubidentification</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>lowclubidentification</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>mediadarling</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>fansfavourite</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>scandalprone</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>hightrainingworkrate</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>lowtrainingworkrate</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>inflexible</SourceColumn>
+		<DomainName>NoYes</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>bodysizecode</SourceColumn>
+		<DomainName>BodySizeCode</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>bodysizecode</SourceColumn>
+		<DomainName>BodySizeCode</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>BodySizeCode</Name>
+		<TotalValues>5</TotalValues>
+		<Value0>Unused</Value0>
+		<Value1>Small</Value1>
+		<Value2>Normal</Value2>
+		<Value3>Big</Value3>
+		<Value4>Unused</Value4>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>bodytypecode</SourceColumn>
+		<DomainName>BodyTypeCode</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>bodytypecode</SourceColumn>
+		<DomainName>BodyTypeCode</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>BodyTypeCode</Name>
+		<TotalValues>9</TotalValues>
+		<Value0>Average and Lean</Value0>
+		<Value1>Average</Value1>
+		<Value2>Average and Muscular</Value2>
+    <Value3>Tall and Lean</Value3>
+    <Value4>Tall</Value4>
+    <Value5>Tall and Muscular</Value5>
+    <Value6>Short and Lean</Value6>
+    <Value7>Short</Value7>
+    <Value8>Short and Muscular</Value8>
+  </DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>headclasscode</SourceColumn>
+		<DomainName>HeadClassCode</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>headclasscode</SourceColumn>
+		<DomainName>HeadClassCode</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>HeadClassCode</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>Specific</Value0>
+		<Value1>Generic</Value1>
+		<Value2>Unused</Value2>
+	</DomainList>
+  <UseDomain>
+    <SourceTable>rivals</SourceTable>
+    <SourceColumn>rivaltype</SourceColumn>
+    <DomainName>Rivaltype</DomainName>
+  </UseDomain>
+  <DomainList>
+    <Name>Rivaltype</Name>
+    <TotalValues>3</TotalValues>
+    <Value0>Historical</Value0>
+    <Value1>Derby</Value1>
+    <Value2>Regional</Value2>
+  </DomainList>
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>skintypecode</SourceColumn>
+		<DomainName>SkinTypeCode</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>referees</SourceTable>
+		<SourceColumn>skintypecode</SourceColumn>
+		<DomainName>SkinTypeCode</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>SkinTypeCode</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>Clean</Value0>
+		<Value1>Freckled</Value1>
+		<Value2>Rough</Value2>
+	</DomainList>
+
+	<UseDomain>
+		<SourceTable>players</SourceTable>
+		<SourceColumn>internationalreputation</SourceColumn>
+		<DomainName>InternationalReputation</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>InternationalReputation</Name>
+		<TotalValues>5</TotalValues>
+		<Value0>Poor</Value0>
+		<Value1>Medium</Value1>
+		<Value2>Good</Value2>
+		<Value3>High</Value3>
+		<Value4>Superstar</Value4>
+	</DomainList>
+	<DomainList>
+		<Name>TeamMentality</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>Defensive</Value0>
+		<Value1>Neutral</Value1>
+		<Value2>Offensive</Value2>
+	</DomainList>
+	<DomainList>
+		<Name>TeamMentality</Name>
+		<TotalValues>3</TotalValues>
+		<Value0>Defensive</Value0>
+		<Value1>Neutral</Value1>
+		<Value2>Offensive</Value2>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>teamwrite</SourceTable>
+		<SourceColumn>teammentality</SourceColumn>
+		<DomainName>TeamMentality</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>AttackTactic1</Name>
+		<TotalValues>4</TotalValues>
+		<Value0>Counter Attack</Value0>
+		<Value1>Wing Play</Value1>
+		<Value2>Box Overload</Value2>
+		<Value3>3rd Man Release</Value3>
+	</DomainList>
+	<DomainList>
+		<Name>AttackTactic2</Name>
+		<TotalValues>5</TotalValues>
+		<Value0>None</Value0>
+		<Value1>Counter Attack</Value1>
+		<Value2>Wing Play</Value2>
+		<Value3>Box Overload</Value3>
+		<Value4>3rd Man Release</Value4>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>teamwrite</SourceTable>
+		<SourceColumn>attacktactic1</SourceColumn>
+		<DomainName>AttackTactic1</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teamwrite</SourceTable>
+		<SourceColumn>attacktactic2</SourceColumn>
+		<DomainName>AttackTactic2</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>DefenseTactic1</Name>
+		<TotalValues>4</TotalValues>
+		<Value0>Pressing</Value0>
+		<Value1>Offside Trap</Value1>
+		<Value2>Zone Defense</Value2>
+		<Value3>Flat Back</Value3>
+	</DomainList>
+	<DomainList>
+		<Name>DefenseTactic2</Name>
+		<TotalValues>5</TotalValues>
+		<Value0>Pressing</Value0>
+		<Value1>Offside Trap</Value1>
+		<Value2>Zone Defense</Value2>
+		<Value3>Flat Back</Value3>
+		<Value4>None</Value4>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>teamwrite</SourceTable>
+		<SourceColumn>defensetactic1</SourceColumn>
+		<DomainName>DefenseTactic1</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teamwrite</SourceTable>
+		<SourceColumn>defensetactic2</SourceColumn>
+		<DomainName>DefenseTactic2</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>tournamentvictories</SourceTable>
+		<SourceColumn>tournamentid</SourceColumn>
+		<DomainName>TournamentId</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>tournamentvictories</SourceTable>
+		<SourceColumn>year</SourceColumn>
+		<DomainName>Date</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>TournamentId</Name>
+		<TotalValues>8</TotalValues>
+		<Value0>National Champion</Value0>
+		<Value1>National Cup</Value1>
+		<Value2>To be found</Value2>
+		<Value3>To be found</Value3>
+		<Value4>UEFA Cup</Value4>
+		<Value5>Champions League</Value5>
+		<Value6>Toyota Cup</Value6>
+	</DomainList>
+  <UseDomain>
+    <SourceTable>fieldpositionboundingboxes</SourceTable>
+    <SourceColumn>positionid</SourceColumn>
+    <DomainName>PositionAll</DomainName>
+  </UseDomain>
+	<UseDomain>
+		<SourceTable>teams</SourceTable>
+		<SourceColumn>buspositioning</SourceColumn>
+		<DomainName>Positioning</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teams</SourceTable>
+		<SourceColumn>ccpositioning</SourceColumn>
+		<DomainName>Positioning</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>teams</SourceTable>
+		<SourceColumn>defdefenderline</SourceColumn>
+		<DomainName>DefPositioning</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Positioning</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>Organized</Value0>
+		<Value1>Free Form</Value1>
+	</DomainList>
+	<DomainList>
+		<Name>DefPositioning</Name>
+		<TotalValues>2</TotalValues>
+		<Value0>Cover</Value0>
+		<Value1>Offside Trap</Value1>
+	</DomainList>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m0</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m1</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m2</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m3</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m4</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m5</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m6</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m7</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m8</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m9</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m10</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<UseDomain>
+		<SourceTable>weather</SourceTable>
+		<SourceColumn>m11</SourceColumn>
+		<DomainName>Weather</DomainName>
+	</UseDomain>
+	<DomainList>
+		<Name>Weather</Name>
+		<TotalValues>6</TotalValues>
+		<Value0>Sunny</Value0>
+		<Value1>Mostly Sunny</Value1>
+		<Value2>Mostly Rainy</Value2>
+		<Value3>Rainy</Value3>
+		<Value4>Heavy Rain</Value4>
+		<Value5>Unused</Value5>
+	</DomainList>
+
+</IntelliEdit>
